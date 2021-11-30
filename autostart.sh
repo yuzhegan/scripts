@@ -13,7 +13,10 @@ picom -b
 /bin/bash ~/scripts/inverse-scroll.sh &
 fcitx5 
 #/bin/bash ~/scripts/setxmodmap-colemak.sh &
+#yay -S network-manager-applet
 nm-applet &
+#https://github.com/xfce-mirror/xfce4-power-manager
+#yay -S xfce4
 xfce4-power-manager &
 #xfce4-volumed-pulse &
 /bin/bash ~/scripts/run-mailsync.sh &
@@ -21,5 +24,4 @@ xfce4-power-manager &
 #~/scripts/autostart_wait.sh &
 #/bin/bash ~/scripts/run-mailsync.sh &
 #~/scripts/autostart_wait.sh &
-xmodmap ~/.config/.Xmodmap &
 
