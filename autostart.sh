@@ -11,11 +11,11 @@ picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -
 /bin/bash ~/scripts/tap-to-click.sh &
 /bin/bash ~/scripts/inverse-scroll.sh &
 /bin/bash ~/scripts/brightness.sh &
+nm-applet &
+#xfce4-power-manager &
 fcitx5 
-albert &
 #/bin/bash ~/scripts/setxmodmap-colemak.sh &
 #yay -S network-manager-applet
-nm-applet &
 #https://github.com/xfce-mirror/xfce4-power-manager
 #yay -S xfce4
 #xfce4-power-manager &
