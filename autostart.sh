@@ -3,8 +3,9 @@
 /bin/bash ~/scripts/wp-autochange.sh &
 xmodmap ~/.config/.Xmodmap &
 #xmodmap ~/.config/.Xmodmap
-#xrandr -s 2560x1440
+#xrandr -s 1980x1080
 #xrandr --output eDP-1 --scale 0.7x0.7
+xrandr --output eDP-1 --scale 1x1
 #/bin/bash ~/scripts/wp-autochange.sh &
 picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -f -D 5 -c -b
 #picom -b
