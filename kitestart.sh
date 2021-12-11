@@ -4,4 +4,5 @@
 #echo "1" | sudo -S mbpfan
 #cd ~/Applications
 #./Qv2ray-v2.7.0-linux-x64.AppImage
-~/.local/share/current/kited
+~/.local/share/kite/current/kited
+
