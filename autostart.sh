@@ -7,7 +7,8 @@ xmodmap ~/.config/.Xmodmap &
 #xrandr --output eDP-1 --scale 0.7x0.7
 xrandr --output eDP-1 --scale 1x1
 #/bin/bash ~/scripts/wp-autochange.sh &
-picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -f -D 5 -c -b
+picom --experimental-backends
+#picom -o 0.95 -i 0.88 --detect-rounded-corners --vsync --blur-background-fixed -f -D 5 -c -b
 #picom -b
 /bin/bash ~/scripts/tap-to-click.sh &
 /bin/bash ~/scripts/inverse-scroll.sh &
